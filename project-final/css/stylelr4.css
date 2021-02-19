@@ -1,0 +1,179 @@
+body {
+	max-width: 1440px;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	background: radial-gradient(50% 50% at 50% 50%, #BDCCFE 0%, rgba(189, 204, 254, 0) 100%);
+}
+header{
+	height: 200px;
+	background: #1B869A;
+}
+button{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+}
+
+.headerButtons{
+	padding: 20px 146px;
+}
+.simpleButton{
+	margin-right: 20px;
+	width: 126px;
+	padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.wideButton{
+	width: 272px;
+}
+
+.wideButton1{
+	position: absolute;
+	width: 272px;
+	height: 40px;
+	left: 146px;
+	top: 120px;
+}
+
+.imageBook{
+	position: absolute;
+	width: 237px;
+	height: 200px;
+	left: 1057px;
+	top: 0px;
+}
+
+.imageBackground{
+	position: absolute;
+	width: 1440px;
+	height: 120px;
+	left: 0px;
+	top: 80px;
+}
+
+
+.form h1{
+	text-align: center;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+}
+.form {
+    width: 710px;
+    margin: 0 auto;
+	margin-bottom:50px;
+}
+
+.field,
+.selectSex {
+	margin-bottom: 18px;
+}
+.field label,
+.field input,
+.field .readerType{
+	display:block;
+	width: 675px;
+}
+
+.field label{
+	margin-bottom: 12px;
+}
+
+
+.selectSex .sexLabel{
+	margin-right:40px;
+}
+
+.selectSex .specificSex{
+	margin-right:60px;
+}
+.selectSex input{
+	margin-right:20px;
+}
+#sex {
+	transform:scale(3);
+	opacity:0.9;
+	cursor:pointer;
+}
+
+.field .readerType{
+	width: 711px;
+	height:40px;
+}
+  
+.field input,
+.field .readerType{
+	font-family: Roboto;
+	font-size: 24px;
+	line-height: 28px;
+	padding: 4px 16px
+}
+
+.form .submit{
+	margin-top: 50px;
+}
+
+.center { 
+    text-align: center; 
+  }
+  
+.submitButton{
+	padding-bottom: 12px;
+    padding-top: 12px;	
+	font-size: 30px;
+	line-height: 35px;
+	width: 418px;
+}
+
+footer{
+	background: #3A5B91;
+	color: #ffffff;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.info{
+	font-size: 26px;
+	line-height: 30px;
+}
+
+.footerContaner{
+	justify-content: space-between;
+	display: flex;
+	padding-top:30px;
+	padding-bottom:8px;
+	padding-left:146px;
+	padding-right:146px;
+}
+
+.footerInfo{
+	width:315px;
+}
+.footerContacts{
+	width:384px;
+}
+.footerButton{
+	width:272px;
+	padding-bottom: 20px;
+    padding-top: 20px;
+	font-size: 30px;
+	line-height: 35px;
+}
+.footerContact{
+	display: flex;
+}
+
+.contactLabel {
+	margin-right: 8px;
+}
+
